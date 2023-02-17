@@ -13,6 +13,7 @@ eskwds = (out_path="exams/", jupyter_path="$(homedir())/.julia/conda/3/bin/jupyt
 
 notebook("src/notes/A.Julia.jmd"; nkwds...)
 notebook("src/notes/B.Asymptotics.jmd"; nkwds...)
+notebook("src/notes/C.Adjoints.jmd"; nkwds...)
 
 
 # Part I
@@ -24,7 +25,10 @@ notebook("src/notes/I.4.DualNumbers.jmd"; nkwds...)
 # Part II
 notebook("src/notes/II.1.StructuredMatrices.jmd"; nkwds...)
 notebook("src/notes/II.2.OrthogonalMatrices.jmd"; nkwds...)
+notebook("src/notes/II.3.QR.jmd"; nkwds...)
+notebook("src/notes/II.4.LU.jmd"; nkwds...)
 
+# /usr/local/bin/jupyter nbconvert --allow-chromium-download --to webpdf *.ipynb
 
 #####
 # sheets
@@ -38,6 +42,13 @@ notebook("src/sheets/sheet2s.jmd"; pkwds...)
 write("src/sheets/sheet3.jmd", replace(read("src/sheets/sheet3s.jmd", String), r"\*\*SOLUTION\*\*(.*?)\*\*END\*\*"s => ""))
 notebook("src/sheets/sheet3.jmd"; pkwds...)
 notebook("src/sheets/sheet3s.jmd"; pkwds...)
+write("src/sheets/sheet4.jmd", replace(read("src/sheets/sheet4s.jmd", String), r"\*\*SOLUTION\*\*(.*?)\*\*END\*\*"s => ""))
+notebook("src/sheets/sheet4.jmd"; pkwds...)
+notebook("src/sheets/sheet4s.jmd"; pkwds...)
+write("src/sheets/sheet5.jmd", replace(read("src/sheets/sheet5s.jmd", String), r"\*\*SOLUTION\*\*(.*?)\*\*END\*\*"s => ""))
+notebook("src/sheets/sheet5.jmd"; pkwds...)
+notebook("src/sheets/sheet5s.jmd"; pkwds...)
+
 
 #####
 # labs
@@ -60,6 +71,14 @@ Literate.notebook("src/labs/lab4s.jl", "labs/")
 write("src/labs/lab4.jl", replace(replace(read("src/labs/lab4s.jl", String), r"## SOLUTION(.*?)## END"s => ""), r"@test" => "@test_broken"))
 Literate.notebook("src/labs/lab4.jl", "labs/")
 
+Literate.notebook("src/labs/lab5s.jl", "labs/")
+write("src/labs/lab5.jl", replace(replace(read("src/labs/lab5s.jl", String), r"## SOLUTION(.*?)## END"s => ""), r"@test" => "@test_broken"))
+Literate.notebook("src/labs/lab5.jl", "labs/")
+
+Literate.notebook("src/labs/lab6s.jl", "labs/")
+write("src/labs/lab6.jl", replace(replace(read("src/labs/lab6s.jl", String), r"## SOLUTION(.*?)## END"s => ""), r"@test" => "@test_broken"))
+Literate.notebook("src/labs/lab6.jl", "labs/")
+
 
 ####
 # OLD
@@ -69,7 +88,6 @@ notebook("src/SpectralTheorem.jmd"; nkwds...)
 
 
 
-notebook("src/Decompositions.jmd"; nkwds...)
 notebook("src/SingularValues.jmd"; nkwds...)
 notebook("src/DifferentialEquations.jmd"; nkwds...)
 
