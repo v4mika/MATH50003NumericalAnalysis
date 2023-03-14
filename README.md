@@ -34,14 +34,19 @@ and unitary matrices (permutations, rotations, and reflections).
 4. [PLU and Cholesky](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/II.4.LU.ipynb) ([PDF](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/raw/main/notes/pdf/II.4.LU.pdf)): we discuss
 the PLU and Cholesky factorisations, as well as symmetric positive definite matrices.
 5. [Norms](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/II.5.Norms.ipynb) ([PDF](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/raw/main/notes/pdf/II.5.Norms.pdf)): we discuss vector and matrix norms.
-6. [Singular Value Decomposition](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/II.6.SVD.ipynb): we discuss the Singular Value Decomposition (SVD) and 2-norms of matrices.
-7. [Condition Numbers](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/II.7.ConditionNumbers.ipynb): we discuss stability, backward error analysis, and  condition numbers.
+6. [Singular Value Decomposition](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/II.6.SVD.ipynb) ([PDF](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/raw/main/notes/pdf/II.6.SVD.pdf)): we discuss the Singular Value Decomposition (SVD) and 2-norms of matrices.
+7. [Condition Numbers](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/II.7.ConditionNumbers.ipynb) ([PDF](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/raw/main/notes/pdf/II.7.ConditionNumbers.pdf)): we discuss stability, backward error analysis, and  condition numbers.
 
 
 *III: Computing with functions*
 
-1. [Fourier Expansions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/III.1.Fourier.ipynb): we discuss approximating Fourier expansions using the Trapezium Rule.
-2. [Discrete Fourier Transform (DFT)](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/III.2.DFT.ipynb): we discuss how the approximate Fourier coefficients can be recast as a unitary matrix, and how approximate Fourier expansinos interpolate.
+1. [Fourier Expansions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/III.1.Fourier.ipynb) ([PDF](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/raw/main/notes/pdf/III.1.Fourier.pdf)): we discuss approximating Fourier expansions using the Trapezium Rule.
+2. [Discrete Fourier Transform](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/III.2.DFT.ipynb) ([PDF](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/raw/main/notes/pdf/III.2.DFT.pdf)): we discuss how the approximate Fourier coefficients can be recast as a unitary matrix, and how approximate Fourier expansinos interpolate.
+3. [Orthogonal Polynomials](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/III.3.OrthogonalPolynomials.ipynb) ([PDF](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/raw/main/notes/pdf/III.3.OrthogonalPolynomials.pdf)): we introduce orthogonal polynomials and discuss
+their properties including three-term recurrences and Jacobi matrices.
+4. [Classical Orthogonal Polynomials](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/III.4.ClassicalOPs.ipynb) ([PDF](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/raw/main/notes/pdf/III.4.ClassicalOPs.pdf)): we discuss special families of orthogonal polynomials which arise in applications, in particular Chebyshev and Legendre polynomials.
+5. [Interpolation and Quadrature](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/III.5.Interpolation.ipynb) ([PDF](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/raw/main/notes/pdf/III.5.Interpolation.pdf)): we discuss how interpolating a function by a polynomial leads naturally to a quadrature rule, for approximating integrals.
+6. [Gaussian Quadrature](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/III.6.Quadrature.ipynb) ([PDF](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/raw/main/notes/pdf/III.6.Quadrature.pdf)): a powerful quadrature rule comes from diagonalising truncations of Jacobi matrices, which is exact for polynomials twice the degree expected.
 
 
 **Non-examinable material**: I.3 Example 1/2, II.2 Definition 7/Lemma 2, II.3.2, II.3 Example 2, II.4.1, II.4.2
@@ -65,7 +70,9 @@ the PLU and Cholesky factorisations, as well as symmetric positive definite matr
 6. [Cholesky and Norms](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet6.ipynb)
 ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet6s.ipynb))
 7. [SVD and Condition Numbers](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet7.ipynb)
+([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet7s.ipynb))
 8. [Fourier Expansions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet8.ipynb)
+9. [Orthogonal Polynomials](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet9.ipynb)
 
 
 
@@ -79,7 +86,8 @@ the PLU and Cholesky factorisations, as well as symmetric positive definite matr
 5. [Orthogonal Matrices](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/labs/lab5.ipynb) ([Raw](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/src/labs/lab5.jl)) ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/labs/lab5s.ipynb))
 6. [Least squares, QR, and Cholesky](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/labs/lab6.ipynb) ([Raw](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/src/labs/lab6.jl))
 ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/labs/lab6s.ipynb))
-7. [Singular value decomposition](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/labs/lab7.ipynb) ([Raw](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/src/labs/lab7.jl))
+7. [Singular value decomposition](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/labs/lab7.ipynb) ([Raw](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/src/labs/lab7.jl)) 
+([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/labs/lab7s.ipynb))
 
 
 ## Lecture material
